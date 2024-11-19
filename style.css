@@ -1,3 +1,4 @@
+/* Reset & Utility */
 * {
   padding: 0;
   margin: 0;
@@ -20,5 +21,55 @@ img {
 }
 
 /* Page styling */
+.c-main {
+  width: 100%;
+  height: 100%;
+}
 
-/* Responsive design */
+.c-main_container {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: calc(100% - 3rem);
+  margin: 0 auto;
+}
+
+.staked-photo_wrapper {
+  display: grid;
+  column-gap: .5rem;
+  row-gap: .8rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  cursor: pointer;
+}
+
+.staked-photo_wrapper .photo-wrapper {
+  width: clamp(8rem, 5.8214rem + 10.1429vw, 11.25rem);
+  aspect-ratio: 1/1;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  pointer-events: none;
+  box-shadow: 0 0 3px rgba(138, 138, 138, 0.5);
+  transform: translate(0%, 0%);
+  rotate: 0deg;
+  position: relative;
+}
+
+.staked-photo_wrapper .cc-photo-one {
+  z-index: 4;
+}
+
+.staked-photo_wrapper .cc-photo-two {
+  transform-origin: 100% 100%;
+  z-index: 3;
+}
+
+.staked-photo_wrapper .cc-photo-three {
+  transform-origin: 0% 100%;
+  z-index: 2;
+}
+
+.staked-photo_wrapper .cc-photo-four {
+  transform-origin: 0% 100%;
+  z-index: 1;
+}
