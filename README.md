@@ -1,7 +1,6 @@
-<!-- # Jen Grisowold Personal Website
+# Staked Photos Animation
 
-Development of a conceptual animation for the personal website of digital content creator Jen Griswold.
-Design & Motion by [Alex Tkachev](https://twitter.com/simply_aalex).
+Development of a staked photos animation originally done in Figma by [Femi Dasilva](https://x.com/femidasilvaa).
 
 ## Table of contents
 
@@ -33,4 +32,4 @@ Feel free to review the code for a more detailed understanding of my approach, a
 
 ## Credit
 
-Huge credits goes to [Alex Tkachev](https://twitter.com/simply_aalex)🙌 who created the original design and motion which I have coded. -->
+Huge credits goes to [Femi Dasilva](https://x.com/femidasilvaa).🙌 who created the original design and motion which I have coded.
