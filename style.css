@@ -36,8 +36,8 @@ img {
 
 .staked-photo_wrapper {
   display: grid;
-  column-gap: .5rem;
-  row-gap: .8rem;
+  column-gap: .4rem;
+  row-gap: .6rem;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   cursor: pointer;
