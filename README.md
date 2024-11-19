@@ -1,5 +1,9 @@
 # Staked Photos Animation
 
+
+https://github.com/user-attachments/assets/0d9853af-d4b1-47ba-a9cb-257cd51e3a3f
+
+
 Development of a staked photos animation originally done in Figma by [Femi Dasilva](https://x.com/femidasilvaa).
 
 ## Table of contents
