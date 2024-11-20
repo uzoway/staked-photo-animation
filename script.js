@@ -17,6 +17,8 @@ const createStakePhotoTimeline = () => {
     stakePhotoTl.to(
       photo,
       { ...translateValues[index], ease: "back.inOut(1.2)", duration: 0.65 },
+      // Second variant - more bounce
+      // { ...translateValues[index], ease: "back.inOut(5)", duration: 0.45 },
       0
     );
   });
